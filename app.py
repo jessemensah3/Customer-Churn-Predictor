@@ -227,7 +227,8 @@ if predict_button:
 
     st.markdown("---")
     st.header("📈 Prediction Results")
-    st.caption("Machine Learning prediction based on the customer information provided.")
+    st.caption("Results are generated using the trained Random Forest model.")
+    
 
     if prediction == 1:
 
